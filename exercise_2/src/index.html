@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/tailwind.css" rel="stylesheet">
+    <link href="/dell-patern.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <title>Bonus</title>
+</head>
+<body>
+  <div class="flex justify-center">
+    <div class="w-1/2">
+      <div class="text-center text-3xl p-5">
+        <h1>Electronics &amp; Accessories</h1>
+      </div>
+      <div class="grid grid-cols-3 gap-2">
+       <div class="justify-self-center">
+        <div class="p-2 flex items-center" onclick="changeColor(this, 'purple')">
+          <span class="material-icons mr-5">desktop_windows</span>
+          Monitors
+        </div>
+        <div class="p-2 flex items-center" onclick="changeColor(this, 'purple')"">
+          <span class="material-icons mr-5">desktop_windows</span>
+          Audio
+        </div>
+        <div class="p-2 flex items-center" onclick="changeColor(this, 'purple')"">
+          <span class="material-icons mr-5">desktop_windows</span>
+          Gaming Electronics
+        </div>
+        <div class="p-2 flex items-center" onclick="changeColor(this, 'purple')"">
+          <span class="material-icons mr-5">desktop_windows</span>
+          PC Accessories
+        </div>
+       </div>
+       <div class="justify-self-center">
+        <div class="p-2 flex items-center" onclick="changeColor(this, 'green')">
+          <span class="material-icons mr-5">desktop_windows</span>
+          Docking Stations
+        </div>
+        <div class="p-2 flex items-center" onclick="changeColor(this, 'green')">
+          <span class="material-icons mr-5">desktop_windows</span>
+          Networking
+        </div>
+        <div class="p-2 flex items-center" onclick="changeColor(this, 'green')">
+          <span class="material-icons mr-5">desktop_windows</span>
+          Laptop Bags & Cases
+        </div>
+        <div class="p-2 flex items-center" onclick="changeColor(this, 'green')">
+          <span class="material-icons mr-5">desktop_windows</span>
+          Printers, Ink & Toner
+        </div>
+       </div>
+       <div class="justify-self-center">
+        <div class="p-2 flex items-center" onclick="changeColor(this, 'orange')">
+          <span class="material-icons mr-5">desktop_windows</span>
+          Software & Downloads
+        </div>
+        <div class="p-2 flex items-center" onclick="changeColor(this, 'orange')">
+          <span class="material-icons mr-5">desktop_windows</span>
+          Tablets
+        </div>
+        <div class="p-2 flex items-center" onclick="changeColor(this, 'orange')">
+          <span class="material-icons mr-5">desktop_windows</span>
+          Cameras, Photo & Video
+        </div>
+        <div class="p-2 flex items-center" onclick="changeColor(this, 'orange')">
+          <span class="material-icons mr-5">desktop_windows</span>
+          Keyboards & Mice
+        </div>
+       </div>
+      </div>
+    </div>
+  </div>
+    <div class="p-10 flex justify-center">
+      <div class="grid grid-cols-2 grid gap-4 w-2/3">
+        <div class="grid gap-4 background-color-purple flex items-center justify-center relative cursor-pointer" id="main-image">
+          <div class="absolute bg-gray-700 w-full bg-opacity-75 text-center text-white p-2 cursor-auto" id="line">
+            <h1 class="text-2xl">Monitors & Monitor Accessories</h1>
+            <div class="grid grid-cols-2 grid divide-x divide-white-500">
+              <div class="justify-self-end pr-3 cursor-pointer" id="text-one">
+                Shop Monitor Deals
+              </div>
+              <div class="justify-self-start pl-3 cursor-pointer" id="text-two">
+                Shop All Dell Monitors
+              </div>
+            </div>
+          </div>
+          <img src="https://i.dell.com/sites/csimages/Banner_Imagery/all/monitor-4-up-monitor-u2721de-540x340.png" alt="Monitor">
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-white justify-self-center">
+            <div class="flex flex-col justify-center items-center h-full text-center">
+              <img src="https://snpi.dell.com/snp/images/products/large/en-us~AA114449/AA114449.jpg" alt="Alienware 34 Curved Gaming Monitor -  AW3420DW" class="w-48" data-testid="featured_module_image">
+              <span class="text-blue-500">
+                Sony Alpha a7 III Mirrorless Camera with FE 28-70 mm F3.5-5.6 OSS Lens
+              </span>
+              <p>Dell Price $2199.99</p>
+            </div>
+          </div>
+          <div class="bg-white justify-self-center">
+            <div class="flex flex-col justify-center items-center h-full text-center">
+              <img src="https://snpi.dell.com/snp/images/products/large/en-us~AA114448/AA114448.jpg" alt="Dell UltraSharp 38 Curved Monitor: U3818DW" class="w-48" data-testid="featured_module_image">
+              <span class="text-blue-500">
+                Sony α7 III ILCE-7M3 Digital Camera Mirrorless 24.2 MP - Body only
+              </span>
+              <p>Dell Price $1999.99</p>
+            </div>
+          </div>
+          <div class="bg-white justify-self-center">
+            <div class="flex flex-col justify-center items-center h-full text-center">
+              <img src="https://snpi.dell.com/snp/images/products/large/en-us~e3675bf9-be8a-489d-a54d-ba34379a9c95/e3675bf9-be8a-489d-a54d-ba34379a9c95.jpg" alt="Dell 32 Curved Gaming Monitor -  S3220DGF" class="w-48" data-testid="featured_module_image">
+              <span class="text-blue-500">
+                Sony - DSC-HX400 20.4-Megapixel Digital Camera - Black
+              </span>
+              <p>Dell Price $449.99</p>
+            </div>
+          </div>
+          <div class="bg-white justify-self-center">
+            <div class="flex flex-col justify-center items-center h-full text-center">
+              <img src="https://snpi.dell.com/snp/images/products/large/en-us~4f2487be-06dd-4434-8ac4-72aaac081b81/4f2487be-06dd-4434-8ac4-72aaac081b81.jpg" alt="Dell 27 4K UHD Monitor - S2721QS" class="w-48" data-testid="featured_module_image">
+              <span class="text-blue-500">
+                Microsoft LifeCam Cinema - Web camera - color - 1280 x 720 - audio - USB 2.0
+              </span>
+              <p>Dell Price $57.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="main.js"></script>
+<script src="vanilla.js"></script>
+
+</html>

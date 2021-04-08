@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Monitor 1",
+    "size": "15",
+    "price": "500"
+  },
+  {
+    "name": "Monitor 2",
+    "size": "14",
+    "price": "200"
+  },
+  {
+    "name": "Monitor 3",
+    "size": "14",
+    "price": "150"
+  },
+  {
+    "name": "Monitor 4",
+    "size": "17",
+    "price": "540"
+  },
+  {
+    "name": "Monitor 5",
+    "size": "13",
+    "price": "658"
+  },
+  {
+    "name": "Monitor 6",
+    "size": "13",
+    "price": "473"
+  },
+  {
+    "name": "Monitor 7",
+    "size": "17",
+    "price": "900"
+  },
+  {
+    "name": "Monitor 8",
+    "size": "15",
+    "price": "1000"
+  },
+  {
+    "name": "Monitor 9",
+    "size": "17",
+    "price": "999"
+  },
+  {
+    "name": "Monitor 10",
+    "size": "15",
+    "price": "879"
+  }
+]
